@@ -1,9 +1,6 @@
 # exam-zip
 exam-zip training
 
-<h1 align="center"> $${\color{blue}[jmouaike - 42 Paris]}$$ Exam-Zip</h1>
-</p>
-
 ## subjects
 | level     |ex01|ex02|ex03|
 | ------ | :--------------------:| :--------------------:| :--------------------:| 
