@@ -1,11 +1,11 @@
 # exam-zip
 exam-zip training
 
-<h1 align="center"> $${\color{lightgreen}grademe\color{green}2022}$$ Exam-Zip 42-Paris</h1>
+<h1 align="center"> $${\color{blue}[jmouaike - 42 Paris]}$$ Exam-Zip</h1>
 </p>
 
 ## subjects
-| level     |ex00|ex01|ex02|ex03|
+| level     |ex01|ex02|ex03|
 | ------ | :--------------------:| :--------------------:| :--------------------:| 
 |01|  aff_a | aff_z | |
 |02| ft_putstr | ft_strlen | rev_print | |
