@@ -6,7 +6,7 @@ exam-zip training
 | ------ | :--------------------:| :--------------------:| :--------------------:| 
 |01|  aff_a | aff_z | |
 |02| ft_putstr | ft_strlen | rev_print | |
-|03| buzzfizz | | |
+|03| fizzbuzz | | |
 |04| aff_first_param | aff_last_param | |
 |05| first_word | rot_13 | rotone |
 |06| inter | union | last_word |
@@ -19,7 +19,7 @@ exam-zip training
 ## exams passed
 
 ### exam00 : jan `00`
-| ❌ aff_a | ✅ buzzfizz | ✅ aff_last_param | ✅ rot-13 | ❌ ft_split |
+| ❌ aff_a | ✅ put_str | ✅ aff_last_param | ✅ rot-13 | ❌ ft_split |
 | --- | --- | --- | --- | --- | --- |
 
 
