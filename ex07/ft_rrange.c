@@ -18,23 +18,24 @@ int	*ft_rrange(int start, int end)
 	int	*arr;
 	size_t	size;
 	size_t	i;
+	int rev;
 
 	i = 0;
+	rev = 1;
 	if (end < start)
-		return (ft_rrange(end, start));
-	size = end - start + 1;
+		rev = - 1;
+	size = (end - start) * rev + 1;
 	arr = (int *)malloc (sizeof(*arr) * size);
 	if (!arr)
 		return (NULL);
 	while (i < size)
 	{
-		arr[i] = start + i;
+		arr[i] = end - i * rev;
 		i++;
 	}
 	return (arr);
 }
 
-/*
 int	main(int argc, char **argv)
 {
 	int	*arr;
@@ -58,6 +59,7 @@ int	main(int argc, char **argv)
 		printf ("%d | ", arr[i]);
 		i++;
 	}
+	free (arr);
 	printf ("\n");
 	return (0);
-} */
+} 

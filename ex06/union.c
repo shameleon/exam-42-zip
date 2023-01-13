@@ -41,11 +41,11 @@ void	ft_union(char *s, char *t)
 		i++;	
 	}
 	while (t[j])
-        {
-                if (is_first_char(s, i, t[j]) && is_first_char(t, j, t[j]))
-                        write (1, &t[j], 1);
-                j++;
-        }
+    {
+        if (is_first_char(s, i, t[j]) && is_first_char(t, j, t[j]))
+            write (1, &t[j], 1);
+        j++;
+    }
 
 }
 
