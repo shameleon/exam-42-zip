@@ -13,27 +13,28 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int	*ft_rrange(int start, int end)
+int	*ft_range(int start, int end)
 {
 	int	*arr;
 	size_t	size;
 	size_t	i;
+	int		asc;
 
 	i = 0;
-	if (end < start)
-		return (ft_rrange(end, start));
-	size = end - start + 1;
+	asc = 1;
+	if (start > end)
+		asc = - 1;
+	size = (end - start) * asc + 1;
 	arr = (int *)malloc (sizeof(*arr) * size);
 	if (!arr)
 		return (NULL);
 	while (i < size)
 	{
-		arr[i] = start + i;
+		arr[i] = start + i * asc;
 		i++;
 	}
 	return (arr);
 }
-
 
 int	main(int argc, char **argv)
 {
@@ -58,6 +59,7 @@ int	main(int argc, char **argv)
 		printf ("%d | ", arr[i]);
 		i++;
 	}
+	free (arr);
 	printf ("\n");
 	return (0);
 }

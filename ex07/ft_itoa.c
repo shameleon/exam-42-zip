@@ -58,10 +58,14 @@ char	*ft_itoa(int nbr)
 
 /*
 int	main(int argc, char **argv)
-{
+{	
+	char	*str;
+
 	if (argc != 2)
 		return (0);
-	printf ("%s\n", ft_itoa(atoi(argv[1])));
+	str = ft_itoa(atoi(argv[1]));
+	printf ("%s\n", str);
+	free (str)
 	return (0);
 } 
 */
