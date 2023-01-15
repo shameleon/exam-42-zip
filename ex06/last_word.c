@@ -22,12 +22,13 @@ void	last_word(char *s)
 	i--;
 	while ((s[i] >= 9 && s[i] <= 13) || s[i] == 32)
 		i--;
-	while (s[i] >= 32 && s[i] <= 126)
+	while (s[i] && !((s[i] >= 9 && s[i] <= 13) || s[i] == 32))
 		i--;
 	i++;
-	while (s[i] >= 32 && s[i] <126)
+	while (s[i] && !((s[i] >= 9 && s[i] <= 13) || s[i] == 32))
 	{
-		write (1, &s[i], 1);
+		if (s[i] >= 32 && s[i] <126)
+			write (1, &s[i], 1);
 		i++;
 	}
 }
