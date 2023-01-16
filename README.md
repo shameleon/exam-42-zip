@@ -1,8 +1,8 @@
-<h1> $${\color{lightblue}Examp-Zip}$$ </h1>
-<h3> $${\color{lightblue}training}$$ </h3>
-
-<h2> $${\color{red}Subjects}$$ </h2>
+<h1> $${\color{lightblue}42-Paris-Exam-Zip}$$ </h1>
 </p>
+
+# Subjects
+
 | level     |ex01|ex02|ex03|
 | ------ | :--------------------:| :--------------------:| :--------------------:| 
 |01|  aff_a | aff_z | |
@@ -17,9 +17,9 @@
 |10| count_islands | infin_mult | g_diam
 ---
 
-## exams passed
+## Exams passed
 
-### exam00 : jan `00`
+### 17-jan : final grade `00`
 | ❌ aff_a | ✅ put_str | ✅ aff_last_param | ✅ rot-13 | ❌ ft_split |
 | --- | --- | --- | --- | --- | --- |
 
