@@ -22,11 +22,35 @@
   - ![Exam Miner : Fwuensche](https://github.com/fwuensche/42-exam-miner)
 ***
 ### Exams passed :
+- [x] 17-jan : final grade `00`
 
-### 17-jan : final grade `00`
-| ❌ aff_a | ✅ put_str | ✅ aff_last_param | ✅ rot-13 | ❌ ft_split |
-| --- | --- | --- | --- | --- | --- |
+| level     |'01'|'02'|'03'|
+| --- | :--- | :--- | :--- |
+| exercise | ❌ aff_a | ✅ put_str | ❌  |
 
+## aff_a
+```c
+#include <unistd.h>
+
+int	main(int argc, char **argv)
+{
+	int	i;
+
+	i = 0;
+	if (argc == 2)
+	{
+		while (argv[1][i] != '\0')
+			i++;
+		while (i > 0)
+		{
+			write (1, &argv[1][i - 1], 1);
+			i--;
+		}
+	}
+	write (1, "\n", 1);
+	return (0);
+}
+```
 
 
 
