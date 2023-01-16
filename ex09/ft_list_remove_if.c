@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_list_remove_if.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jmouaike <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/16 09:49:25 by jmouaike          #+#    #+#             */
+/*   Updated: 2023/01/16 09:50:57 by jmouaike         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
 #include "ft_list.h"
 
@@ -39,15 +51,15 @@ int     main(void)
 {
     t_list  *head;
     t_list  *lst;
-    int     tab[]= { 4, 4, 16, 25, 36 };
-    int     ref = 4;
+    int     tab[]= { 42, -32, 4, 4, 16, 25, 36 };
+    int     ref = 25;
     int     i;
 
     head = malloc(sizeof(t_list));
     head->data = &tab[0];
     lst=head;
     i = 1;
-    while (i < 5)
+    while (i < 7)
     {
         lst->next = malloc(sizeof(t_list));
         lst->next->data = &tab[i];

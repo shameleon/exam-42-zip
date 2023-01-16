@@ -1,16 +1,27 @@
-/*****************************************************************/
-/*    sort_list :
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   sort_list.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jmouaike <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/16 10:17:22 by jmouaike          #+#    #+#             */
+/*   Updated: 2023/01/16 10:18:56 by jmouaike         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-- keep track for list's ptr to 1st element : t_list *head
-- while there is a next node : lst->next
-    use cmp ptr to fucntion with *(int *)lst->data 
-    - if NOT in the right order :
-        use cmp ptr to fucntion with *(int *)lst->data  
-        - change -> data by swapping values ascending function
-            ft_swap(lst-data and lst->next->data)
-        - go back to head (1st element : lst = head)
-     - if IS in the right order :
-        =>iterate through list
+/*****************************************************************
+ *     sort_list :
+ *    - keep track for list's ptr to 1st element : t_list *head
+ *    - while there is a next node : lst->next
+ *    	use cmp ptr to fucntion with *(int *)lst->data 
+ *    	- if NOT in the right order :
+ *    	use cmp ptr to function with *(int *)lst->data  
+ *    	- change -> data by swapping values ascending function
+ *    	ft_swap(lst-data and lst->next->data)
+ *    	- go back to head (1st element : lst = head)
+ *    	- if IS in the right order :
+ *    	=>iterate through list
 ******************************************************************/
 
 #include <stdlib.h>
