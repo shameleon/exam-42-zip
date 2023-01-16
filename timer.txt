@@ -1,0 +1,11 @@
+lvl min exercise 
+
+1   08  aff_z       
+2   05  ft_strlen   
+3   07  fizzbuzz       
+4   05  aff_first_param
+5   11  rotone   
+6   20  inter
+7   19  ft_rrange
+8   00  expand_str
+9   00  sort_list

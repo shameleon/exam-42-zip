@@ -13,12 +13,21 @@
 #include <stdlib.h>
 #include "ft_list.h"
 
+/*
+    1 / detect list head to be removed
+    2/ detect next element to be removed, if necessary splice to next->next
+*/
+/* cmp returns 0 if data==data_ref */
 int     cmp(void *data, void *data_ref)
 {
-	if (data == data_ref)
-		return (0);
-	return (1);
+    int a;
+    int b;
+    
+    a = *(int *)data;
+    b = *(int *)data_ref;
+	return (a != b);
 }
+
 
 void    ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
 {
@@ -27,20 +36,20 @@ void    ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
 
     if (!begin_list || *begin_list == NULL)
         return ;
-    while (*begin_list && !(*cmp)((*begin_list)->data, data_ref))
+    while (*begin_list && (*cmp)((*begin_list)->data, data_ref) == 0)
     {
         tmp = *begin_list;
-        *begin_list=(*begin_list)->next;
-        free(tmp);
+        *begin_list = tmp->next;
+        free (tmp);
     }
     lst = *begin_list;
     while (lst && lst->next)
     {
-        if (!(*cmp)(lst->next->data, data_ref))
+        if ((*cmp)(lst->next->data, data_ref) == 0)
         {
             tmp = lst->next;
             lst->next = tmp->next;
-            free(tmp);
+            free (tmp);
         }
         else
             lst = lst->next;
@@ -51,7 +60,8 @@ int     main(void)
 {
     t_list  *head;
     t_list  *lst;
-    int     tab[]= { 42, -32, 4, 4, 16, 25, 36 };
+    t_list  *tmp;
+    int     tab[]= { 4, -32, 4, 4, 16, 25, 36 };
     int     ref = 4;
     int     i;
 
@@ -72,14 +82,9 @@ int     main(void)
     while (lst)
     {
         printf ("  %d  -->", (*(int *)(lst->data)));
+        tmp = lst;
         lst = lst->next;
-    }
-    lst=head;
-    while (lst)
-    {
-        lst = lst->next;
-        free (head);
-        head = lst;
+        free (tmp);
     }
     printf ("  |NULL|\n");
     return (0);

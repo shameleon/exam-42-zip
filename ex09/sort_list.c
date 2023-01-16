@@ -13,14 +13,14 @@
 /*****************************************************************
  *     sort_list :
  *    - keep track for list's ptr to 1st element : t_list *head
- *    - while there is a next node : lst->next
- *    	use cmp ptr to fucntion with *(int *)lst->data 
- *    	- if NOT in the right order :
- *    	use cmp ptr to function with *(int *)lst->data  
- *    	- change -> data by swapping values ascending function
- *    	ft_swap(lst-data and lst->next->data)
- *    	- go back to head (1st element : lst = head)
- *    	- if IS in the right order :
+ *    loop : while there is a next node : lst->next
+ *      - if : use cmp to compare 2 by 2 
+ *          with *(int *)lst->data and ->next
+ *    	    - if NOT in the rigth order 
+ *    	        - change -> data by swapping values ascending function
+ *    	            => ft_swap(lst-data and lst->next->data)
+ *    	        - GO BACK (1st element : lst = head)
+ *    	    - if IS in the right order :
  *    	=>iterate through list
 ******************************************************************/
 
