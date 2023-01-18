@@ -20,13 +20,16 @@
   - ![exam42zip - IurriMr](https://github.com/IuriiMr/exam42zip)
   - ![Chrisanto](https://github.com/Chrisanto76/trainExamZip42/tree/master/trainingExamZip)
   - ![Exam Miner : Fwuensche](https://github.com/fwuensche/42-exam-miner)
+
 ***
 ### Exams passed :
-- [x] 17-jan : final grade `00`
+- :ballot_box_with_check: 17-jan :arrow_right: final grade ` 90 % ` :sunglasses:
 
-| level     |'01'|'02'|'03'|
-| --- | :--- | :--- | :--- |
-| exercise | ❌ aff_a | ✅ put_str | ❌  |
+| level     |'01'|'02'|'03'|'04'|'05'|'06'|'07'|'08'|'09'|
+| --- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| time (min)|12|5|8|3|11|14|18|36|38|
+| exercise | ✅ aff_a  | ✅ ft_strlen |✅ fizzbuzz|✅ first_param|✅ rotone|✅ last_word|✅ ft_range |✅ expand_str |✅ sort_list |
+
 
 ***
 ## Exercises
