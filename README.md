@@ -22,7 +22,7 @@ Author : jmouaike 42 Paris
   - ![Exam Miner : Fwuensche](https://github.com/fwuensche/42-exam-miner)
 
 ***
-## Exam passed on 1st trial :
+## Exam-42-zip :
 - On 17-jan 2023 :arrow_right: final grade ` 90 % ` :sunglasses:
 
 | level     |exercise|status|time (min)|
