@@ -6,7 +6,7 @@
  *    - keep track for list's ptr to 1st element : t_list *head
  *    loop : while there is a next node : lst->next
  *      - if : use cmp to compare 2 by 2 
- *          with *(int *)lst->data and ->next
+ *          with (int)lst->data and ->next
  *    	    - if NOT in the rigth order 
  *    	        - change -> data by swapping values ascending function
  *    	            => ft_swap(lst-data and lst->next->data)
