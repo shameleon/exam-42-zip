@@ -26,7 +26,7 @@ Author : jmouaike 42 Paris
 - :ballot_box_with_check: 17-jan :
 		arrow_right: final grade ` 90 % ` :sunglasses:
 
-| level     |status|exercise|status|time (min)|
+| level     |exercise|status|time (min)|
 | ------ | ---| ---| ---| 
 |01|  aff_a | ✅ |12|
 |02| ft_strlen | ✅ |05|
