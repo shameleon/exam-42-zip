@@ -1,11 +1,15 @@
-lvl min exercise 
+# t1 = training time
+# t2 = exam-42-zip time
 
-1   08  aff_z       
-2   05  ft_strlen   
-3   07  fizzbuzz       
-4   05  aff_first_param
-5   11  rotone   
-6   20  inter
-7   19  ft_rrange
-8   00  expand_str
-9   00  sort_list
+lvl t1  t2  exercise 
+1   06  12  aff_a / aff_z       
+2   05  05  ft_strlen   
+3   07  08  fizzbuzz       
+4   05  03  first_param
+5   11  11  rotone   
+6   20  NA  inter
+6   NA  14  last_word
+7   19  18  ft_range / ft_rrange
+8   22  36  expand_str
+9   NA  38  sort_list
+10  NA  NA 
