@@ -22,9 +22,8 @@ Author : jmouaike 42 Paris
   - ![Exam Miner : Fwuensche](https://github.com/fwuensche/42-exam-miner)
 
 ***
-## Exams passed :
-- :ballot_box_with_check: 17-jan :
-		arrow_right: final grade ` 90 % ` :sunglasses:
+## Exam passed on 1st trial :
+- On 17-jan 2023 :arrow_right: final grade ` 90 % ` :sunglasses:
 
 | level     |exercise|status|time (min)|
 | ------ | ---| ---| ---| 
