@@ -23,13 +23,21 @@ Author : jmouaike 42 Paris
 
 ***
 ## Exams passed :
-- :ballot_box_with_check: 17-jan :arrow_right: final grade ` 90 % ` :sunglasses:
+- :ballot_box_with_check: 17-jan :
+		arrow_right: final grade ` 90 % ` :sunglasses:
 
-| level     |'01'|'02'|'03'|'04'|'05'|'06'|'07'|'08'|'09'|
-| --- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| time (min)|12|5|8|3|11|14|18|36|38|
-| exercise | ✅ aff_a  | ✅ ft_strlen |✅ fizzbuzz|✅ first_param|✅ rotone|✅ last_word|✅ ft_range |✅ expand_str |✅ sort_list |
-
+| level     |status|exercise|status|time (min)|
+| ------ | ---| ---| ---| 
+|01|  aff_a | ✅ |12|
+|02| ft_strlen | ✅ |05|
+|03| fizzbuzz | ✅ |08|
+|04| first_param | ✅ |03|
+|05| rotone | ✅ |11|
+|06| last_word | ✅ |14|
+|07| ft_range | ✅ |18|
+|08| expand_str | ✅ |36|
+|09| sort_list | ✅ |05|
+|10| infin_mult |❌|timed out|
 
 ***
 ## Exercises
