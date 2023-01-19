@@ -1,7 +1,7 @@
-<h1> $${\color{lightblue}42-Paris-Exam-Zip}$$ </h1>
-</p>
+# Exam-42-Zip
+Author : jmouaike 42 Paris
 
-### Subjects :
+## Subjects :
 
 | level     |ex01|ex02|ex03|
 | ------ | :--------------------:| :--------------------:| :--------------------:| 
@@ -22,7 +22,7 @@
   - ![Exam Miner : Fwuensche](https://github.com/fwuensche/42-exam-miner)
 
 ***
-### Exams passed :
+## Exams passed :
 - :ballot_box_with_check: 17-jan :arrow_right: final grade ` 90 % ` :sunglasses:
 
 | level     |'01'|'02'|'03'|'04'|'05'|'06'|'07'|'08'|'09'|
