@@ -23,17 +23,17 @@ Author : jmouaike 42 Paris
 
 ***
 ## Exam-42-zip - Apoure :
-- On 24-jan 2023 : apoure passed exam :arrow_right: final grade ` 50 % ` 🍆
+- On 24-jan 2023 : apoure passed exam :arrow_right: final grade ` 60 % ` 🍆
 
 | level     |exercise|status|time (HH:MM)|time (min)|
 | ------ | ---| ---| ---| ---|
-|01|  aff | ✅ |10:15|15|
-|02| | ✅ |10:23|08|
-|03| fizzbuzz | ✅ |10:40|17|
-|04| _param | ✅ |10:52|12|
-|05|  | ✅ |11:14|22|
-|06|  | ✅ |11:43|29|
-|07|  |:n:|timed out||
+|01|  aff_z | ✅ |10:15|15|
+|02| rev_print| ✅ |10:23|08|
+|03| buzzfizz (7, 4) | ✅ |10:40|17|
+|04| first_param | ✅ |10:52|12|
+|05| rotone | ✅ |11:14|22|
+|06| last_word | ✅ |11:43|29|
+|07| ft_range |::|left before||
 |08| |:n:|NA||
 |09| |:n:|NA||
 |10| |:n:|NA||
