@@ -35,7 +35,7 @@ Author : jmouaike 42 Paris
 |06| last_word | ✅ |14|
 |07| ft_range | ✅ |18|
 |08| expand_str | ✅ |36|
-|09| sort_list | ✅ |05|
+|09| sort_list | ✅ |38|
 |10| infin_mult |❌|timed out|
 
 ***
