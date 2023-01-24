@@ -22,8 +22,24 @@ Author : jmouaike 42 Paris
   - ![Exam Miner : Fwuensche](https://github.com/fwuensche/42-exam-miner)
 
 ***
-## Exam-42-zip :
-- On 17-jan 2023 :arrow_right: final grade ` 90 % ` :sunglasses:
+## Exam-42-zip - Apoure :
+- On 24-jan 2023 : apoure passed exam arrow_right: final grade ` 0 % ` 🍆:
+
+| level     |exercise|status|time (HH:MM)|time (min)|
+| ------ | ---| ---| ---| ---|
+|01|  aff | ✅ |10:15|15|
+|02| | ✅ |10:23|08|
+|03| fizzbuzz | ✅ |10:40|17|
+|04| _param | ✅ |10:52|12|
+|05|  | ✅ |11:||
+|06|  | ✅ |||
+|07|  |❌|timed out||
+|08| |❌|NA||
+|09| |❌|NA||
+|10| |❌|NA||
+
+## Exam-42-zip - Jmouaike :
+- On 17-jan 2023 : jmouaike passed exam arrow_right: final grade ` 90 % ` :sunglasses:
 
 | level     |exercise|status|time (min)|
 | ------ | ---| ---| ---| 
