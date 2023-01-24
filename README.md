@@ -23,7 +23,7 @@ Author : jmouaike 42 Paris
 
 ***
 ## Exam-42-zip - Apoure :
-- On 24-jan 2023 : apoure passed exam arrow_right: final grade ` 50 % ` 🍆
+- On 24-jan 2023 : apoure passed exam :arrow_right: final grade ` 50 % ` 🍆
 
 | level     |exercise|status|time (HH:MM)|time (min)|
 | ------ | ---| ---| ---| ---|
@@ -32,14 +32,14 @@ Author : jmouaike 42 Paris
 |03| fizzbuzz | ✅ |10:40|17|
 |04| _param | ✅ |10:52|12|
 |05|  | ✅ |11:14|22|
-|06|  |::|||
-|07|  |::|timed out||
-|08| |::|NA||
-|09| |::|NA||
-|10| |::|NA||
+|06|  |:n:|||
+|07|  |:n:|timed out||
+|08| |:n:|NA||
+|09| |:n:|NA||
+|10| |:n:|NA||
 
 ## Exam-42-zip - Jmouaike :
-- On 17-jan 2023 : jmouaike passed exam arrow_right: final grade ` 90 % ` :sunglasses:
+- On 17-jan 2023 : jmouaike passed exam :arrow_right: final grade ` 90 % ` :sunglasses:
 
 | level     |exercise|status|time (min)|
 | ------ | ---| ---| ---| 
@@ -52,7 +52,7 @@ Author : jmouaike 42 Paris
 |07| ft_range | ✅ |18|
 |08| expand_str | ✅ |36|
 |09| sort_list | ✅ |38|
-|10| infin_mult |::|timed out|
+|10| infin_mult |:n:|timed out|
 
 ***
 ## Exercises
