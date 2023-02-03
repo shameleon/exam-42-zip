@@ -9,11 +9,11 @@ Author : jmouaike 42 Paris
 |02| ft_putstr | ft_strlen | [rev_print](./ex02/rev_print.txt) | |
 |03| [fizzbuzz](./ex03/fizzbuzz.txt) | | |
 |04| aff_first_param | [aff_last_param](./ex04/aff_last_param.txt) | |
-|05| first_word | rot_13 | rotone |
+|05| [first_word](./ex05/first_word.txt) | [rot_13](./ex05/rot13.txt) | [rotone](./ex05/rotone.txt) |
 |06| [inter](./ex06/union.txt) | [union](./ex06/union.txt) | [last_word](./ex06/last_word.txt) |
 |07| [ft_itoa](./ex07/ft_itoa.txt) | [ft_range](./ex07/ft_range.txt) | [ft_rrange](./ex07/ft_rrange.txt) |
 |08| [expand_str](./ex08/expand_str.txt) | [ft_split](./ex08/ft_split.txt) | |
-|09| ft_list_remove_if | sort_list
+|09| [ft_list_remove_if](./ex09/ft_list_remove_if.txt) | [sort_list](./ex09/sort_list.txt)
 |10| count_islands | infin_mult | g_diam
 ***
 ### links :
