@@ -33,7 +33,7 @@ Author : jmouaike 42 Paris
 |03| buzzfizz | ✅ |10:40   `17'`|16:28   `12'`||
 |04| first_param | ✅ |10:52   `12'`|16:45  `17'`| `05'` |
 |05| rotone/rot13| ✅ |11:14 `22'`|17:27 `42'`|`06'`|
-|06| last_word | ✅ |11:43   `29'`|failed||
+|06| last_word | ✅ |11:43   `29'`|timed out||
 |07| ft_range ||gave up|||
 
 ## Exam-42-zip - Jmouaike :
