@@ -23,25 +23,23 @@ Author : jmouaike 42 Paris
 
 ***
 ## Exam-42-zip - Apoure :
-- On 24-jan 2023 : apoure passed exam :arrow_right: final grade ` 60 % ` 🍆
+- On 24-jan 2023 : apoure passed exam :arrow_right: final grade ` 60 % ` ft_range 🍆
+- On 03-feb 2023 : apoure passed exam :arrow_right: final grade ` 50 % ` last_word 🍆
 
-| level     |exercise|status|time (HH:MM)|time (min)|
-| ------ | ---| ---| ---| ---|
-|01|  aff_z | ✅ |10:15|15|
-|02| rev_print| ✅ |10:23|08|
-|03| buzzfizz (7, 4) | ✅ |10:40|17|
-|04| first_param | ✅ |10:52|12|
-|05| rotone | ✅ |11:14|22|
-|06| last_word | ✅ |11:43|29|
-|07| ft_range |::|left before||
-|08| |:n:|NA||
-|09| |:n:|NA||
-|10| |:n:|NA||
+|level|subject|Ok|24-jan|03-Feb|best time|
+| ------ | ---| ---| ---| ---| ---|
+|01|  aff_z | ✅ |10:15	`15'`|16:08   `8'`||
+|02| rev_print| ✅ |10:23  `8'`|16:16   `8'`||
+|03| buzzfizz | ✅ |10:40   `17'`|16:28   `12'`||
+|04| first_param | ✅ |10:52   `12'`|16:45  `17'`| `05'` |
+|05| rotone/rot13| ✅ |11:14 `22'`|17:27 `42'`|`06'`|
+|06| last_word | ✅ |11:43   `29'`|failed||
+|07| ft_range ||gave up|||
 
 ## Exam-42-zip - Jmouaike :
 - On 17-jan 2023 : jmouaike passed exam :arrow_right: final grade ` 90 % ` :sunglasses:
 
-| level     |exercise|status|time (min)|
+| level     |subject|OK|time (min)|
 | ------ | ---| ---| ---| 
 |01|  aff_a | ✅ |12|
 |02| ft_strlen | ✅ |05|
