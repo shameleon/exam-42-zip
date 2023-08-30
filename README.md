@@ -5,7 +5,7 @@ Author : jmouaike 42 Paris
 
 | level     |ex01|ex02|ex03|
 | ------ | :--------------------:| :--------------------:| :--------------------:| 
-|01|  [aff_a](./ex01/aff.txt) | aff_z | |
+|01|  [aff_a](./ex01/aff_a.txt) | [aff_z](./ex01/aff_z.txt) | |
 |02| ft_putstr | ft_strlen | [rev_print](./ex02/rev_print.txt) | |
 |03| [fizzbuzz](./ex03/fizzbuzz.txt) | | |
 |04| aff_first_param | [aff_last_param](./ex04/aff_last_param.txt) | |
