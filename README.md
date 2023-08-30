@@ -1,7 +1,7 @@
 # Exam-42-Zip
-Author : jmouaike 42 Paris
+Author : jmouaike at 42-Paris
 
-## Subjects :
+## Subjects
 
 | level     |ex01|ex02|ex03|
 | ------ | :--------------------:| :--------------------:| :--------------------:| 
@@ -14,17 +14,38 @@ Author : jmouaike 42 Paris
 |07| [ft_itoa](./ex07/ft_itoa.txt) | [ft_range](./ex07/ft_range.txt) | [ft_rrange](./ex07/ft_rrange.txt) |
 |08| [expand_str](./ex08/expand_str.txt) | [ft_split](./ex08/ft_split.txt) | |
 |09| [ft_list_remove_if](./ex09/ft_list_remove_if/ft_list_remove_if.txt) | [sort_list](./ex09/sort_list/sort_list.txt)
-|10| count_islands | infin_mult | g_diam
+|10| [count_islands](./ex10/count_island.txt) | [infin_mult](./ex10/infin_mult.txt) | [g_diam](./ex10/g_diam.txt)
 ***
-### links :
-  - ![exam42zip - IurriMr](https://github.com/IuriiMr/exam42zip)
-  - ![Chrisanto](https://github.com/Chrisanto76/trainExamZip42/tree/master/trainingExamZip)
-  - ![Exam Miner : Fwuensche](https://github.com/fwuensche/42-exam-miner)
 
 ***
-## Exam-42-zip - Apoure :
-- On 24-jan 2023 : apoure passed exam :arrow_right: final grade ` 60 % ` ft_range 🍆
-- On 03-feb 2023 : apoure passed exam :arrow_right: final grade ` 50 % ` last_word 🍆
+## Exam reminder
+
+```examshell``` then ```examshell``` to login.
+Once in, your 42 login and password.
+you have 10 minutes to reach that step.
+Take some time to read and organize your workspace.
+
+Subjects are in ```subjects``` dir.
+```rendus``` will contain your exercices targeted by ```grademe```.
+
+do not forget to create a directory for each exercise, such as
+```rendus/aff_a/aff_a.c```
+
+compile will all the flags
+test your program or function
+
+check you dir and file names
+
+```git add .```
+
+```git commit -m``` 
+
+and do not forget to ```git push``` before asking a ```grademe```
+
+## real time solved exercises in an Examshell environment
+### Exam-42-zip - Apoure :
+- On 24-jan 2023 : apoure passed exam :arrow_right: final grade ` 60 % ` failed at ft_range
+- On 03-feb 2023 : apoure passed exam :arrow_right: final grade ` 50 % ` failed at last_word
 
 |level|subject|Ok|24-jan|03-Feb|best time|
 | ------ | ---| ---| ---| ---| ---|
@@ -36,7 +57,7 @@ Author : jmouaike 42 Paris
 |06| last_word | ✅ |11:43   `29'`|timed out||
 |07| ft_range ||gave up|||
 
-## Exam-42-zip - Jmouaike :
+### Exam-42-zip - Jmouaike :
 - On 17-jan 2023 : jmouaike passed exam :arrow_right: final grade ` 90 % ` :sunglasses:
 
 | level     |subject|OK|time (min)|
