@@ -1,6 +1,10 @@
 # Exam-42-Zip
 Author : jmouaike at 42-Paris
 
+```
+Good training is priceless
+```
+
 ## Subjects
 
 | level     |ex01|ex02|ex03|
