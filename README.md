@@ -2,7 +2,7 @@
 ---
 Author : jmouaike at 42-Paris
 
-```Exam 42 Zip``` is ```C``` exam specific to 42.zip curriculum.
+```Exam 42 Zip``` is a ```C``` exam specific to 42.zip curriculum.
 
 10 exercises with increasing difficulty are to be solved in 3 hours.
 
